@@ -1,0 +1,21 @@
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "name" : "Rice cookers 4 Dimension",
+    "price" : 50000000,
+    "stock" : 1
+}
+###
+
+PATCH http://localhost:8000/users/6233ff53be354dc2ea9d14a7
+Content-Type: application/json
+
+{
+    "name" : "Kulkas 4 Dimension",
+    "price" : 120000000,
+    "stock" : 4
+}
+
+###
+DELETE http://localhost:8000/users/6233ff53be354dc2ea9d14a7
